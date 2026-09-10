@@ -1,0 +1,39 @@
+{
+  "name": "mcp_server_test",
+  "version": "1.0.0",
+  "description": "mcp server",
+  "main": "dist/index.js",
+  "bin": {
+    "job-poster-extractor-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SawitPro/mcp_server_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SawitPro/mcp_server_test/issues"
+  },
+  "homepage": "https://github.com/SawitPro/mcp_server_test#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
